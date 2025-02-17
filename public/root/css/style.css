@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* 你自己的样式 */
+.page_list{text-align:left;}
+.page_list .firstPage, .page_list .prevPage, .page_list .pageItem, .page_list .nextPage, .page_list .lastPage, .page_list .goPageLink{
+    display:inline-block;
+    color:#333333;
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+    width:42px;
+    height:24px;
+    line-height:24px;
+    text-align:center;
+}
+.page_list .pageItem{
+    width:30px;
+}
+.page_list .curPage, .page_list a:hover{
+    background:#0a6999;
+    color:#ffffff;
+    text-decoration:none;
+
+}
+.page_list .goPageText{
+    margin:0 5px;
+}
+td.page_td { padding:5px; }
+
+#goods_images { border:1px solid #dddddd;padding:10px; }
+#goods_images .uploaded_img { display:inline-block;margin:5px;position:relative; }
+#goods_images .delete_btn { position:absolute;right:0;top:0;cursor:pointer; }
+.good_attr_label { display:inline-block;height:40px;line-height:40px;font-size:14px; }
+a.add_attr_img_btn { width:40px;height:40px;line-height:30px;margin-left:5px; }
+.attr_preview_img { width:40px;height:40px;float:right;display:inline-block; }
+.attr_value { display:inline-block;width:60px;height:32px;margin:0;margin-left:5px; }
+
+.is_on_sale { cursor:pointer;border:1px solid #ffffff; }
+.is_on_sale:hover { border-color:#ef392b; }
+#package_goods {  }
+#package_goods li { display:inline-block;width:90px; }
+#package_goods li .goods_img { position:relative; }
+#package_goods li .delete_btn { position:absolute;right:0;top:0;cursor:pointer; }
+#package_goods li .goods_name, .package_goods li .shop_price { height:22px;overflow:hidden; }
+
+.graph { text-align:center; }
+
+.eval_img { padding:20px;overflow:hidden; }
+.eval_img li { float:left;margin:5px; }
+
+.text-c { padding:10px 0; }
+
+.level_x, .level0, .level1, .level2 { display:inline-block;width:20px;height:20px;line-height:20px;text-align:center;color:#ffffff;background:#5eb95e;font-weight:bold;font-size:12px; }
+.level_x:hover, .level0:hover, .level1:hover, .level2:hover { color:#dddddd;text-decoration:none; }
+
+.admin_menu { display:block; }
+.admin_menu:hover { text-decoration:none; }
+
+#tmp_url { display:none;max-width:800px;max-height:600px; }

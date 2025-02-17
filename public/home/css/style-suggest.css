@@ -1,0 +1,31 @@
+ @charset "utf-8";
+/* CSS Document */
+
+body {background: #f5f5f5;}
+.contaner {height: 100%;padding:32px 16px;text-align:center;}
+
+.black {display: none; position: fixed; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,.5); z-index: 1499;}
+
+h2 { font-size:14px;font-weight:normal;color:#b1b1b1;margin-bottom:8px; }
+.sel_opt { display:flex;justify-content:space-around;background:#ffffff;border-radius:6px;margin-bottom:12px; }
+.sel_opt a { display:block;font-size:15px;width:22%;height:36px;line-height:36px;color:#cccccc;border-bottom:1px solid #ffffff; }
+.sel_opt a.active { color:#ef2525;border-bottom:1px solid #ef2525; }
+.txt_area { background:#ffffff;padding:6px;margin-bottom:30px; }
+.txt_area textarea { width:100%;height:120px;resize:none;padding:8px;margin-bottom:10px; }
+.txt_area p { text-align:right;font-size:14px;color:#f45859; }
+.txt_sub { width:100%;display:flex;flex-wrap:wrap;position:relative; }
+.txt_sub a { width:16.66%;height:15vw; }
+.txt_sub img { width:100%;height:100%; }
+.txt_sub span { display:block;position:absolute;left:18%;bottom:0;color:#f4585b; }
+.memo { color:#f4585b;font-size:14px;margin-bottom:30px; }
+.memo a { color:#4344fe;text-decoration:underline; }
+.praise_btn { display:block;background:#598df3;color:#ffffff;border-radius:8px;font-size:15px;height:32px;line-height:32px;margin-bottom:32px;}
+.suggest_btn { display:block;background:#f35959;color:#ffffff;border-radius:8px;font-size:15px;height:32px;line-height:32px;}
+.finish { display:none;position:absolute;z-index:1999;width:300px;height:300px;background:#ffffff;left:50%;margin-left:-150px;top:50%;margin-top:-150px;padding:36px 36px 16px 36px; }
+.finish h3 { font-size:14px;font-weight:normal;color:#ff5683;margin-bottom:6px; }
+.finish h4 { font-size:14px;color:#414141;font-weight:normal;margin-bottom:40px; }
+.finish p { margin-bottom:70px; }
+.finish img { width:80px; }
+.finish_btn { display:inline-block;padding:10px;font-size:14px;color:#ffffff;background:#f74f4f;border-radius:12px; }
+
+#Filedata { display:none; }

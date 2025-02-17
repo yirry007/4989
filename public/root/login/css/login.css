@@ -1,0 +1,55 @@
+﻿html {
+	height: auto;
+	min-height: 100%;
+	overflow: auto;
+}
+body {
+	height: auto;
+	overflow: auto;
+	text-align: center;
+	color: white;
+}
+#container {
+	width: 280px;
+	padding: 0 20px;
+	margin: 0 auto;
+	text-align: left;
+	padding-top: 25px;
+}
+#login-title {
+	text-align: center;
+}
+#login-title h1 {
+	font-size: 48px;
+	line-height: 55px;
+	margin: 0;
+	color: white;
+	-webkit-text-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+	-moz-text-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 2px 7px rgba(0, 0, 0, 0.5);
+}
+#login-title h1.login-title-image {
+	background: url(../img/login-title.png) no-repeat center center;
+	overflow: hidden;
+	height: 55px;
+	text-align: left;
+	text-indent: -3000px;
+}
+#login-title h5 {
+	color: #c8cfd5;
+	margin-top: -6px;
+}
+form {
+	margin-bottom: 11px;
+}
+form:last-child {
+	margin-bottom: 0;
+}
+#container input {
+	width: 212px;
+}
+#container input[type="text"],
+#container input[type="password"] {
+	-webkit-appearance: none;
+}
+.layui-layer { text-align:left;color:#000000; }

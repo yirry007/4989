@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*购物车-底部*/
+.cart-head { background:#ffffff;border-bottom:1px solid #e5e5e5;display:flex;justify-content:space-between;padding:6px 15px;align-items:center; }
+.cart-head .all-check { text-align:center; }
+.cart-head .checkbox div { font-size:12px;color:#5b5b5b; }
+.cart-head .delete-btn { display:block;padding:4px 16px;background:#000000;color:#feec6c;font-size:11px;border-radius:12px; }
+
+.cart-null {display: block; font: 1.2rem/5rem 'Microsoft YaHei','Helvetica'; color: #999; text-align: center; background: #fff; border-bottom: .05rem dashed #ddd;}
+
+.cart-list{margin-top: -1.05rem;}
+.cart-list>li{margin-top: 1rem; background: #fff;}
+.cart-list .list-seller {border: .05rem solid #e5e5e5; border-left:none; border-right: none;}
+.cart-list .list-seller .checkbox{float: left; margin-top: .9rem; width: 3rem; text-align: center;}
+.cart-list .list-seller .seller{float: left; width: 21rem; height: 2.8rem; font-size:12px; line-height:2.7rem; color: #000000;}
+.cart-list .list-goods li{position: relative; border-bottom: .05rem solid #e5e5e5;}
+.cart-list .list-goods .checkbox{float: left; margin-top: 2.8rem; width: 3rem; text-align: center;}
+.cart-list .goods{float: left; display: block; width: 21rem; padding: .9rem 0;}
+.cart-list .img{float: left; width: 5.7rem; padding-right: .8rem;}
+.cart-list .img img{width: 4.9rem; height: 4.9rem; border: .05rem solid #e5e5e5;}
+.cart-list .txt{float: left; width: 14.5rem;}
+.cart-list .txt p{font-size:12px;color:#000000;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.cart-list .txt strong{display: block; font: .9rem/1.2rem 'Microsoft YaHei','Helvetica'; color: #999; padding-top: .7rem;}
+.cart-list .txt span{display: block; font-size:12px; color: #ff000b;}
+.cart-list .txt span.vip{font-size:10px;color: #000000;}
+.cart-list .txt span.vip em{margin-right:4px;}
+.cart-list .txt span.vip s{padding:2px 10px;background:#000000;color:#feec6c;font-size:9px;border-radius:10px;text-decoration:none;}
+.cart-list .txt i{font-size: .85rem;}
+.cart-list .txt u{display: block;font-size:10px;color:#909090;margin-bottom:10px;}
+.cart-list .express { font-size:0.8rem;color: #f60e0e;width:100%;float:left; }
+
+.goods-num{position: absolute; bottom: .8rem; right: 1rem;}
+.goods-num .less, .goods-num .plus {float: left; width: 1.6rem; height: 1.6rem; cursor: pointer;}
+.goods-num .less img, .goods-num .plus img{width: 1.6rem; height: 1.6rem; vertical-align: 0; border: .05rem solid #e5e5e5;}
+.goods-num .num-input {float: left; width: 2.6rem; height: 1.6rem; font: .9rem/1.6rem 'Microsoft YaHei','Helvetica','Helvetica'; color: #272727; text-align: center; border: .05rem solid #e5e5e5;  border-left:none; border-right: none; background: #fff; outline: none; -webkit-appearance:none; border-radius:0;}
+.goods-num .hint {position: absolute; bottom: 1.4rem; left: 0; width: 5.8rem; font: .8rem/1.9rem 'Microsoft YaHei','Helvetica','Helvetica'; color: #f47a7a; text-align: center;}
+
+/*购物车-底部*/
+.cart-foot {height: 6.5rem;}
+.cart-foot .foot-cont {position: fixed; bottom: 0; left: 0; width: 100%; height: 4.5rem; background: #fff; border-top: .05rem solid #eee;}
+.cart-foot .all-check {position: absolute; top: 1rem; left: 0;}
+.cart-foot .all-check .checkbox {position: relative; width: 3.4rem; text-align: center;}
+.cart-foot .all-check .checkbox div{position: absolute; top: 1.2rem; left: 50%; display: block; width: 3.4rem; margin-left: -1.7rem; text-align: center; font: .8rem/1.1rem 'Microsoft YaHei','Helvetica'; color: #666;}
+.cart-foot .delete-btn {position: absolute; top: 1.4rem; left: 4rem; display: block; font-size:15px;color:#000000;}
+.cart-foot .all_price {position: absolute; top: 0.2rem; left: 6.4rem; padding-top: .6rem; font: bold 1.2rem/1.2rem 'Microsoft YaHei','Helvetica'; color: #333;}
+.cart-foot .all_price div{float: left; margin-left: -3rem; margin-top: 1rem;}
+.cart-foot .all_price span{display: block; font-size:12px;color:#ff0103; padding-top: .2rem;}
+.cart-foot .all_price span.vip{font-size:10px;color:#000000;}
+.cart-foot .all_price i{font-size: 1rem;margin-right:0.4rem;}
+.cart-foot .all_price em{margin-right:4px;}
+.cart-foot .all_price em.org{font-size:14px;font-weight:bold;}
+.cart-foot .all_price em.price{font-size:11px;font-weight:bold;}
+.cart-foot .all_price strong { padding:2px 10px;background:#000000;color:#feec6c;font-size:9px;border-radius:10px; }
+.cart-foot .foot-btn {position: absolute; top: 0.85rem; right: 0.85rem; display: block; width: 6.4rem; height: 2.8rem; font: 1.2rem/2.8rem 'Microsoft YaHei','Helvetica'; color: #fff; text-align: center; background: #fe0000;border-radius:1.4rem;}
+
+
+
+

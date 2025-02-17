@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*首页横幅*/
+.index-banner {width:100%; overflow: hidden;}
+.index-banner img {width: 24rem;}
+.flex-direction-nav {display: none;}
+.flex-control-nav {display: none;}
+
+.ads_list { padding:8px; }
+.ads_list li { margin-bottom:12px;padding:8px;background:#ffffff;border-radius:8px; }
+.ads_list a { display:block; }
+.ads_list img { width:100%;border-radius:8px; }
+.more-bt {display: block; width: 100%; height: 4rem; font: 1.2rem/3rem 'Microsoft YaHei','Helvetica'; color: #999; text-align: center; }
+

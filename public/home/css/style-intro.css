@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*页面内容-intro*/
+.intro{width: 100%; height: 100%; text-align: center;}
+.intro .intro-logo{position: absolute; top: 20%; left: 50%; width: 13.125rem; margin-left: -6.5625rem; margin-top: -9.5rem; opacity: 0;}
+.intro .intro-logo img{width: 100%;}
+.intro-close {position: absolute; top: .5rem; right: .5rem; display: block; font: bold .75rem/1.25rem 'Microsoft YaHei','Helvetica'; color: #454a50; padding: .3rem .8rem;}
+.intro-close i{font: .7rem/.7rem ''; margin-right: .3rem;}
+.intro-close span{display: inline-block; font: .7rem/.7rem ''; margin-right: .5rem;}
+
+.intro2 {margin-top: 1.5rem;}
+.intro2 li{margin-top: 1rem;}
+.intro2 li div:nth-child(1){display: table-cell; width: 3.6rem; height: 2.4rem; text-align: center; font: 1rem/1rem ''; color: #818181;  border: .05rem solid #eee; border-left: none; border-right: none; background: #fff;}
+.intro2 li div:nth-child(2) {position: relative; border: .05rem solid #eee; border-left: none; border-right: none; background: #fff;}
+.intro2 li div:nth-child(2):before {content: '\20'; position: absolute; top: .6rem; display: table-cell; width: .05rem; height: 1rem; background: #eee;}
+.intro2 li:nth-child(1) div:nth-child(2){display: table-cell; width: 20.4rem; height: 2.4rem;}
+.intro2 li:nth-child(2) div:nth-child(2){display: table-cell; width: 14rem; height: 2.4rem;}
+.intro2 li:nth-child(2) div:nth-child(3){display: table-cell; width: 6.4rem;}
+.intro2 li:nth-child(2) div:nth-child(3) a{display: block; width: 100%; height: 2.4rem; background: #ffcc33; text-align: center; font: .6rem/2.25rem ''; color: #fff;}
+.intro2 li:nth-child(2) div:nth-child(3) a:active{background: #f4b908;}
+.intro2 li div i{font-size: 1rem;}
+.intro2 li input{width: 90%; font: .75rem/1.6rem ''; border: none; padding-left: .7rem;}
+.intro2 li input::-webkit-input-placeholder{color: #cecece;}
+.intro2 li:nth-child(3){margin-top: 1.5rem;}
+.intro2 li>a{display: block; width: 92%; margin: 0 auto; background: #454a50; font: bold .85rem/2.625rem 'Microsoft YaHei','Helvetica'; color: #fff; text-align: center; border-radius: .3rem;}
+.intro2 li>a:active{background: #31373d;}
+
+
+

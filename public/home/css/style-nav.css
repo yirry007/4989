@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background: #fff;}
+.contaner {height: 100%;}
+
+/*页面内容-分页头部*/
+.nav-head {width: 100%; height: 4rem; background: #e5e5e5;}
+
+/*页面内容-分页菜单*/
+.nav-menu {width: 6.4rem; height: 100%; border-right: .05rem solid #eee;background:#fafafa;}
+.nav-menu .list{display: block; padding: .7rem .9rem .7rem; font: 13px/1.4rem 'Microsoft YaHei','Helvetica'; color: #000000;}
+.nav-menu .list.v{color: #fe1f20;}
+.nav-menu dl{display: none; position: absolute; top: 3.4rem; right: 0; width: 17.6rem; height: 100%; padding: 0 .9rem;}
+.nav-menu li:nth-child(1) dl{display: block;}
+.nav-menu dl dd{float: left; width: 33.333%; margin-top: 1.2rem;}
+.nav-menu dl a{display: block; text-align: center;}
+.nav-menu dl a img{display: inline-block; width: 3.375rem; height: 3.375rem; border: .05rem solid #eee; border-radius: 100%;}
+.nav-menu dl a p{font: 12px/1.2rem 'Microsoft YaHei','Helvetica'; color: #767676; padding-top: .4rem;}
+
+/*页面内容-搜索*/
+.index-search {justify-content:space-between;position: absolute; top: 0;right:0; width: 100%; height: 4rem; padding: .5rem 1rem; z-index: 1000}
+.index-search>div {width: 72%; margin:0 auto; height: 2.8rem; border-radius: 1.4rem; background: #fff; overflow: hidden; z-index: 1000;position:relative;}
+.index-search input{float:left;width: 17.5rem; height: 2.8rem; padding-left: .8rem; background: rgba(0,0,0,0); border: none; font: .9rem/1.7rem 'Microsoft YaHei','Helvetica'; color: #666; outline: none;}
+.index-search input::-webkit-input-placeholder{color: #bbb;}
+.index-search .to_brand { width:60px;height:36px;position:absolute;left:2px;top:12px;text-align:center; }
+.index-search .to_brand img { width:24px;height:24px;border-radius:18px; }
+.index-search .to_brand p { color:#010101;font-size:10px; }
+.index-search .search_btn { width:50px;height:30px;line-height:30px;border-radius:15px;position:absolute;right:7px;top:7px;text-align:center;background:#fe0000;color:#ffffff; }
+.index-search .head_cart { width:60px;text-align:center;position:absolute;right:4px;top:12px; }
+.index-search .head_cart img { width:24px;height:24px; }
+.index-search .head_cart p { color:#010101;font-size:10px; }
+.index-search .head_cart em { width:8px;height:8px;border-radius:4px;background:#ff0b2f;position:absolute;right:0;top:0; }
+
+
+
+
+
+
+
